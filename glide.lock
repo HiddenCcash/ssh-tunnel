@@ -1,0 +1,73 @@
+hash: b24775529648a94a48ce97512623e1c9881f0ac607cc31be00d73ae9f3f3baba
+updated: 2019-01-29T16:18:50.123631971-02:00
+imports:
+- name: github.com/eclipse/paho.mqtt.golang
+  version: 36d01c2b4cbeb3d2a12063e4880ce30800af9560
+  subpackages:
+  - packets
+- name: github.com/fsnotify/fsnotify
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: github.com/hashicorp/hcl
+  version: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: 5c8c8bd35d3832f5d134ae1e1e375b69a4d25242
+- name: github.com/magiconair/properties
+  version: c2353362d570a7bfa228149c62842019201cfb71
+- name: github.com/mattn/go-shellwords
+  version: f8471b0a71ded0ab910825ee2cf230f25de000f1
+- name: github.com/mitchellh/mapstructure
+  version: 3536a929edddb9a5b34bd6861dc4a9647cb459fe
+- name: github.com/pelletier/go-toml
+  version: 81a861c69d25a841d0c4394f0e6f84bc8c5afae0
+- name: github.com/sirupsen/logrus
+  version: e1e72e9de974bd926e5c56f83753fba2df402ce5
+- name: github.com/spf13/afero
+  version: a5d6946387efe7d64d09dcba68cdd523dc1273a3
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 8965335b8c7107321228e3e3702cab9832751bac
+- name: github.com/spf13/cobra
+  version: ef82de70bb3f60c65fb8eebacbb2d122ef517385
+- name: github.com/spf13/jwalterweatherman
+  version: 103a6da826d08544f49833dabd4f1cdf8a1038bb
+- name: github.com/spf13/pflag
+  version: 298182f68c66c05229eb03ac171abe6e309ee79a
+- name: github.com/spf13/viper
+  version: 2c12c60302a5a0e62ee102ca9bc996277c2f64f5
+- name: golang.org/x/crypto
+  version: 0c41d7ab0a0ee717d4590a44bcb987dfd9e183eb
+  subpackages:
+  - ssh
+  - ssh/terminal
+- name: golang.org/x/net
+  version: db08ff08e8622530d9ed3a0e8ac279f6d4c02196
+  subpackages:
+  - internal/socks
+  - proxy
+  - websocket
+- name: golang.org/x/sys
+  version: fa43e7bc11baaae89f3f902b2b4d832b68234844
+  subpackages:
+  - unix
+  - windows
+- name: golang.org/x/text
+  version: 4d1c5fb19474adfe9562c9847ba425e7da817e81
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []
